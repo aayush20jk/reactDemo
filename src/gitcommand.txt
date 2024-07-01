@@ -1,0 +1,26 @@
+git log - yeh hume btata hai ki kya push hua tha last time 
+
+MAIN CHEEZ - *order me hume chalane hai* *vvi*
+
+i)
+git status - jo btaega ki kya kya changes abhi humne kiye hai joki git repo me nahi hai.
+
+*how git works*
+step 1: local changes we made
+step 2: we add those changes to a shelf *staging area*
+step 3: git will take those changes from the shelf to the git repo
+
+ii)
+git add - yeh changes ko staging are me daalega (btane ke liye ki yeh file daalne hai)
+
+2 tareeka -
+git add . - yeh sara hi changes ko add karega (filhaal iski jarurat hai)
+git add fileName - yeh bss uss file ko add karega
+
+git status - to check ki add hua hai na.
+
+iii) 
+
+git commit - yeh staging pe daal dega finally (yeh daalne ke liye)
+
+git commit -m 'message' - btane ke liye ki hum kya change kiye hai
