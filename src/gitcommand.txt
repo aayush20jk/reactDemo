@@ -22,5 +22,10 @@ git status - to check ki add hua hai na.
 iii) 
 
 git commit - yeh staging pe daal dega finally (yeh daalne ke liye)
-
 git commit -m 'message' - btane ke liye ki hum kya change kiye hai
+
+iv)
+
+git push - yeh git ko bolega ki bhai yeh sub pahucha dega
+
+git push
