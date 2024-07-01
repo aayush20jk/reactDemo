@@ -31,3 +31,10 @@ git push - yeh git ko bolega ki bhai yeh sub pahucha dega
 git push
 
 ggfkawiugdfkaigfawlifugwliefugalwefugawlfuaweegfalwugefawleuifgaweleifugaewlfu
+
+v)
+
+to rollback to previous latest version 
+we use revert command - whenever we push anything we create one checkpoint. what this command will do is , it will revert it back to last check point
+
+git revert "last commit msg"
