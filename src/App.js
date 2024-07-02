@@ -1,8 +1,24 @@
 import react from 'react';
+import Card from "./Card";
+import record from "./record";
+
+const datas = record;
+
+function mapData(contact) {
+  return (
+    <Card 
+      src = {null} 
+      name = {contact.name} 
+      email = {contact.email} 
+      number = {contact.telephone}/>
+  )
+}
 
 function App() {
   return (
-    <h1>I am aayush.</h1>
+    <div>
+      {datas.map(mapData)} // {}
+    </div>
   );
 }
 
